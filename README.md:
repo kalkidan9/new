@@ -1,0 +1,12 @@
+# PDF ID Card Processor
+
+A Flask backend that extracts images, FIN numbers, and expiry dates from Ethiopian ID card PDFs.
+
+## Features
+- Extract profile pictures from PDFs
+- Remove backgrounds from profile images
+- Extract FIN numbers using OCR
+- Extract expiry dates in Ethiopian and Gregorian calendars
+
+## Deployment
+This app can be deployed on Railway, Render, or any Python hosting platform.

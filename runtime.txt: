@@ -1,0 +1,16 @@
+python-3.11.0
+
+
+# Initialize git repository
+git init
+
+# Add all files
+git add .
+
+# Make first commit
+git commit -m "Initial commit: PDF ID Card Processor"
+
+# Create repository on GitHub and get the URL, then:
+git remote add origin https://github.com/kalkidan9/new
+git branch -M main
+git push -u origin main
