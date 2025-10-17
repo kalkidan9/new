@@ -2,8 +2,17 @@ Flask==2.3.3
 flask-cors==4.0.0
 PyMuPDF==1.23.7
 Pillow==10.0.1
-rembg==2.0.50
 numpy==1.24.3
 pytesseract==0.3.10
 python-multipart==0.0.6
 gunicorn==21.2.0
+
+# Use pre-compiled versions of these packages
+onnxruntime==1.16.3
+opencv-python-headless==4.8.1.78
+scipy==1.11.4
+scikit-image==0.21.0
+pooch==1.8.0
+
+# Use a specific version of rembg that works better
+rembg==2.0.38
